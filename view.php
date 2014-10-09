@@ -17,7 +17,7 @@
 		
 		function show_display()
 		{				
-			require_once 'Template.php';
+			require_once $this->file_include;
 		}
 	}
 ?>
